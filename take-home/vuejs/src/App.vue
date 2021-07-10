@@ -5,7 +5,7 @@ export default {
   name: "app",
   data() {
     return {
-      appTitle: 'Take Home _ vuejs-src-App.vue',
+      appTitle: 'Take Home',
     };
   },
 };

@@ -40,7 +40,7 @@ export default {
       v-if="!courses || courses.length === 0"
       key="notPresent"
       class="p-10"
-      >You have no courses yet!</v-card
+      >You have no courses yet! _ axios -> 405 error</v-card
     >
 
     <v-data-table
