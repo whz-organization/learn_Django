@@ -20,6 +20,11 @@ export default {
           sortable: true,
           value: 'name',
         },
+        {
+          text: 'Description',
+          sortable: true,
+          value: 'description',
+        },
         { text: 'Actions', value: 'actions', sortable: false },
       ],
     };
