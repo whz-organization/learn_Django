@@ -6,7 +6,7 @@ from .serializers import CourseSerializer
 from courses.models import Course
 
 class CourseListView(APIView):
-    def get(self,request, format=None):
+    def get(self,request, *args, **kwargs):
         course_all = Course.objects.all()
         serializer = CourseSerializer(course_all, many=True)
         return Response(serializer.data)
